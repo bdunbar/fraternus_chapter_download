@@ -1,0 +1,27 @@
+# ---------------------------------------------------------------
+# Scraped roster data: real names, emails and phone numbers,
+# including minors. Never commit any of this.
+# ---------------------------------------------------------------
+roster_raw.json
+seen_emails.json
+flocknote_import.csv
+flocknote_import.xlsx
+flocknote_new.csv
+
+# Flocknote's template, if you copy it into the repo
+examplecompletespreadsheet.xlsx
+
+# Superseded one-off scripts from initial exploration
+members.csv
+members_raw.json
+make_csv.py
+make_flocknote.py
+
+# Catch-alls, in case of a differently-named export
+*.csv
+*.xlsx
+!example_output.csv
+
+__pycache__/
+*.pyc
+.venv/
